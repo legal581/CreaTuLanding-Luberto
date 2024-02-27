@@ -1,0 +1,24 @@
+img {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 5rem;
+  margin: 5px;
+}
+
+body {
+  background-color: aquamarine;
+}
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 1rem;
+  text-align: center;
+}
+.carta{
+  padding: 5rem 2rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(22rem, 1fr));
+  gap: 3rem 1rem;
+  box-sizing: border-box;
+}
