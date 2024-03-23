@@ -5,7 +5,7 @@ import {
   Route,
   Routes,
 } from "react-router-dom";
-//import { getProductsByCategoriaCos } from "../../asyncMock"
+
 import { ItemCount } from "../ItemCount/ItemCount"
 import { collection, doc, getDocs, query, where } from "https://www.gstatic.com/firebasejs/10.9.0/firebase-firestore.js";
 import { db } from "../../Config/firebaseConfig";
