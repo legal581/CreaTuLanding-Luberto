@@ -8,13 +8,13 @@ const Navbar = () => {
             <img src={Logo} alt="logo"></img>
             <h3>Virtual Farmacy</h3>
             <div>
-            <Link to="/medicamentos">
+            <Link to="/categoria/medicamentos">
             <button className="btn btn-primary m-4">Medicamentos</button>
             </Link>
-            <Link to="/suplementos">
+            <Link to="/categoria/suplementos">
             <button className="btn btn-secondary m-4">Suplementos</button>
             </Link>
-            <Link to="/cosmeticos">
+            <Link to="/categoria/cosmeticos">
             <button className="btn btn-primary m-4">Cosméticos</button>
             </Link>
             </div> 

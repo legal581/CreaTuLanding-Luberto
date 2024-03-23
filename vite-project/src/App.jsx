@@ -15,6 +15,7 @@ import { ItemListCosmeticos } from "./components/ItemListCosmeticos/ItemListCosm
 import { ItemDetailConteiner } from "./components/ItemDetailConteiner/ItemDetailConteiner";
 import { ItemDetail } from "./components/ItemDetail/ItemDetail";
 
+
 function App() {
 
   return (
@@ -25,9 +26,9 @@ function App() {
       <Routes>
         <Route path="/" element={<ItemListContainer greeting = {"Bienvenido a tu Farmacia Virtual"} />}></Route>
         <Route path="comerce" element={<MapsMock></MapsMock>}></Route>
-        <Route path="/suplementos" element={<ItemListSuplementos></ItemListSuplementos>}></Route>
-        <Route path="/medicamentos" element={<ItemListMedicamentos></ItemListMedicamentos>}></Route>
-        <Route path="/cosmeticos" element={<ItemListCosmeticos></ItemListCosmeticos>}></Route>
+        <Route path="categoria/suplementos" element={<ItemListSuplementos></ItemListSuplementos>}></Route>
+        <Route path="categoria/medicamentos" element={<ItemListMedicamentos></ItemListMedicamentos>}></Route>
+        <Route path="categoria/cosmeticos" element={<ItemListCosmeticos></ItemListCosmeticos>}></Route>
         <Route path="/item/:id" element={<ItemDetailConteiner></ItemDetailConteiner>}></Route>
         <Route path="*" element={<h1>404 NOT FOUND</h1>}></Route>
       </Routes>
