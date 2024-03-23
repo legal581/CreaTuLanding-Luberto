@@ -31,7 +31,6 @@ export const ItemListCosmeticos = () => {
         return item;
       });
       setProducts(productList);
-      //setIsLoading(false);
     });
   };
   useEffect (() => {
